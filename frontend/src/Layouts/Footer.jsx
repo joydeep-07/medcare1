@@ -1,6 +1,7 @@
 import React from "react";
 import { FaGithub, FaLinkedin, FaFacebook, FaInstagram } from "react-icons/fa";
 import NewsLetter from "../Components/NewsLetter";
+import { Link } from "react-router";
 
 const Footer = () => {
   return (
@@ -44,6 +45,12 @@ const Footer = () => {
                     {item}
                   </li>
                 ))}
+                <Link to="/admin"
+                  
+                  className="text-white hover:text-cyan-400 transition-colors duration-300 cursor-pointer"
+                >
+                  Admin
+                </Link>
               </ul>
             </div>
 
