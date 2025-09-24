@@ -1,4 +1,4 @@
-export const baseURL = "http://localhost:5000/api";
+export const baseURL = "https://medcare1-ufgh.onrender.com/";
 
 export const endPoint = {
   doctors: `${baseURL}/doctors`,
